@@ -3,7 +3,7 @@ public class Marksheet {
         String nm =  args[0];
         int score = Integer.parseInt(nm) ;
 
-        String marksheet = (score>=40 && score <=59) ? "Grade F" :
+        String marksheet = (score>=0 && score <=59) ? "Grade F" :
                 (score >=60 && score <=69) ? "Grade D" :
                         (score >=70 && score <=79) ? "Grade C" :
                                 (score >=80 && score <=89) ? "Grade B" :
