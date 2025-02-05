@@ -13,8 +13,9 @@ public class Reverse_String {
         }
         if(reverse.toString().equals(user)){
             System.out.println("Given word is a palindrome "+ reverse);
-        }else
-        System.out.println("Not a palindrome "+ reverse);
+        }else {
+            System.out.println("Not a palindrome "+ reverse);
+        }
         sc.close();
 
     }
