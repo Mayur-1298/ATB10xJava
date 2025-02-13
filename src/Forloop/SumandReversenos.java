@@ -1,6 +1,6 @@
 package Forloop;
 
-public class Forloop {
+public class SumandReversenos {
     public static void main(String[] args) {
         System.out.println("Print numbers from 10 to 1");
         for(int i=10; i>0; i--){
